@@ -103,22 +103,22 @@ Histórico de iteração (F1-Score era a métrica bloqueante):
 - Experimento final (scores ≥ 0.8 em todos os exemplos): https://smith.langchain.com/o/6a1b3b66-ebb8-48de-b9bf-bb73f0d9fd7a/datasets/8096daec-a9c8-4a46-a125-842e09df51d3/compare?selectedSessions=f7641f49-316c-4c1c-98cc-9f475c49becd
 - Prompt público: https://smith.langchain.com/prompts/bug_to_user_story_v2/b00a3c5f
 
-Screenshots (assets/screenshots/):
+Screenshots (assets/evidencias/):
 
 1. Dataset com a tabela de experimentos (nota média por métrica ≥ 0.8):
-   ![Dataset e experimentos](assets/screenshots/01-dataset-experimentos-notas.png)
+   ![Dataset e experimentos](assets/evidencias/01-dataset-experimentos-notas.png)
 
 2. Dataset de avaliação com os 15 exemplos:
-   ![Dataset 15 exemplos](assets/screenshots/02-dataset-15-exemplos.png)
+   ![Dataset 15 exemplos](assets/evidencias/02-dataset-15-exemplos.png)
 
 3. Experimento — topo com médias e total de runs (15/15):
-   ![Experimento notas topo](assets/screenshots/03-experimento-notas-topo.png)
+   ![Experimento notas topo](assets/evidencias/03-experimento-notas-topo.png)
 
 4. Experimento — exemplos com Inputs, Reference Outputs, Outputs e notas individuais por métrica:
-   ![Exemplos e notas](assets/screenshots/04-experimento-exemplos-notas.png)
+   ![Exemplos e notas](assets/evidencias/04-experimento-exemplos-notas.png)
 
 5. Prompt público `igorvlima/bug_to_user_story_v2` com tags das técnicas:
-   ![Prompt público](assets/screenshots/05-prompt-publico.png)
+   ![Prompt público](assets/evidencias/05-prompt-publico.png)
 
 > Nota: o tracing detalhado de cada exemplo pode ser consultado no link do experimento
 > acima (coluna Outputs → link do run) ou no dashboard de Tracing do projeto.
