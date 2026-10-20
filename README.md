@@ -89,6 +89,10 @@ Resultado da iteração 3 do `src/evaluate.py` (experimento `igorvlima-bug_to_us
 
 **MÉDIA GERAL: 0.8825 — ✅ APROVADO (todas as métricas ≥ 0.8, não apenas a média)**
 
+Execução de confirmação (experimento `igorvlima-bug_to_user_story_v2-7f77a329`, mesma versão do prompt):
+F1-Score 0.87 ✓ | Clarity 0.91 ✓ | Precision 0.90 ✓ | Helpfulness 0.90 ✓ | Correctness 0.89 ✓ — média 0.8928 ✅
+(duas execuções consecutivas aprovadas, resultado estável)
+
 Histórico de iteração (F1-Score era a métrica bloqueante):
 - Iteração 1 (2 few-shots simples): F1 = 0.77 ✗ → diagnósticos: valores generalizados ("HTTP 2xx" vs "HTTP 200"), ator trocado, omissão de seções da referência
 - Iteração 2 (+regras de fidelidade, +3º few-shot complexo, estrutura condicional): F1 = 0.79 ✗ → faltavam critérios técnicos explícitos e a seção "Critérios Técnicos"
